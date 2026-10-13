@@ -2,6 +2,8 @@
 
 A scalable framework for benchmarking deep convolutional architectures on classification tasks. This project evaluates the impact of optimizers, learning rates, and batch sizes across multiple CNN backbones — providing a reproducible experimental setup aligned with research and production best practices.
 
+[![Notebook checks](https://github.com/SameetAsadullah/cnn-benchmark-suite/actions/workflows/quality.yml/badge.svg)](https://github.com/SameetAsadullah/cnn-benchmark-suite/actions/workflows/quality.yml)
+
 ---
 
 ## 🚀 Key Highlights
@@ -51,3 +53,15 @@ A scalable framework for benchmarking deep convolutional architectures on classi
 - Optimizer sensitivity studies
 - Lightweight deployment model search
 - Reproducible architecture and optimizer benchmarks
+
+## Repository layout
+
+- `notebooks/cnn-benchmark.ipynb` — architecture training and comparison pipeline
+- `results/` — epoch, validation, and test metrics exported by the benchmark
+
+## Run the benchmark
+
+```bash
+cd notebooks
+jupyter lab cnn-benchmark.ipynb
+```
