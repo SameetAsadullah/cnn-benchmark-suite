@@ -50,4 +50,4 @@ A scalable framework for benchmarking deep convolutional architectures on classi
 - Model architecture benchmarking
 - Optimizer sensitivity studies
 - Lightweight deployment model search
-- Academic reproducibility experiments
+- Reproducible architecture and optimizer benchmarks
