@@ -31,6 +31,12 @@ A scalable framework for benchmarking deep convolutional architectures on classi
 
 ---
 
+## Comparison workflow
+
+The notebook trains each CNN with the configured optimizer, learning rate, and batch size, then records epoch metrics and validation results. It selects the best configuration per architecture on validation accuracy before reporting test performance. The exported CSV files in `results/` keep those stages separate.
+
+---
+
 ## 📊 Experiments & Logging
 
 - Validation and test performance tracked across all combinations
