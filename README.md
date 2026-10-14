@@ -1,8 +1,8 @@
-# 🔍 Vision Model Evaluation Framework (PyTorch)
+# Vision Eval: CNN Model Evaluation (PyTorch)
 
 A scalable framework for benchmarking deep convolutional architectures on classification tasks. This project evaluates the impact of optimizers, learning rates, and batch sizes across multiple CNN backbones — providing a reproducible experimental setup aligned with research and production best practices.
 
-[![Notebook checks](https://github.com/SameetAsadullah/cnn-benchmark-suite/actions/workflows/quality.yml/badge.svg)](https://github.com/SameetAsadullah/cnn-benchmark-suite/actions/workflows/quality.yml)
+[![Notebook checks](https://github.com/SameetAsadullah/vision-eval/actions/workflows/quality.yml/badge.svg)](https://github.com/SameetAsadullah/vision-eval/actions/workflows/quality.yml)
 
 ---
 
